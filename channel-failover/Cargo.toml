@@ -1,0 +1,12 @@
+[package]
+name = "channel-failover"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam-channel = "0.5.15"
+jiff = { version = "0.2.15", default-features = false, features = ["std"] }
+rand = "0.9.2"
+tokio = { version = "1.47.1", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.20"
